@@ -31,5 +31,13 @@ J = [ [du/dx, du/dy], [dv/dx, dv/dy] ]
 
 4.
 
+-> Hessian: double (partial) differentiation w.r.t. different variables
 
+H = [	[df/dx1dx1, df/dx1x2, df/dx1dx3], 
+	[df/dx2dx1, df/dx2dx2, df/dx2dx3],
+	[df/dx3dx1, df/dx3dx2, df/dx3dx3] ]
+
+i.e. a Hessian matrix will be nxn matrix where n = number of variables in fucntion f 
+
+note: H will be a symmetric matrix if f is a continuous function
 
