@@ -1,0 +1,35 @@
+1.
+
+for a function f(x,y,z) if x(t) = t - 1, y(t) = t and z(t) = 2t and you want to find df/dt
+
+Intuition: substitute values of x, y and z in f(x,y,z) and differetiate w.r.t t.
+
+-> Total derivative: It is better to find df/dx, df/dy, and df/dz and dx/dt, dy/dt, and dz/dt and use chain rule.
+
+2.
+
+-> Jacobian for one function with many variables: Row vector of df/dxi for each xi (i = 1, 2, ...)
+i.e. if f(x1,x2,x3) = something
+
+J = [ df/dx1, df/dx2, df/x3]
+
+Theoretically, jacobian is a vector that points in the direction of steepest uphill slope (obviously, since jacobian = slope in a particular direction, so to maximise Jacobian, you maximise the uphill slope (uphill because when 'maximising' you want to get most positive (or maximum value) hence uphill) )
+
+Also, the steepier the slope, the greater the MAGNITUDE of Jacobian at that point.
+
+3.
+
+-> Applied Jacobian:
+
+u(x,y) 
+
+v(x,y)
+
+J = [ [du/dx, du/dy], [dv/dx, dv/dy] ]
+
+=> TL;DR: Jacobian gives the row vector pointing up the direction of greater slope, with a length proportional to local steepness (Proof in Applied Jacobian.png)
+
+4.
+
+
+
