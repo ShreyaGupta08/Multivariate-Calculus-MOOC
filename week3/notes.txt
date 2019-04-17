@@ -1,0 +1,13 @@
+1. Multivariate Chain Rule:
+
+If we have a function f in multiple variables (x1, x2,..) and each of the variables (xi) are functions of a variable, say t:
+
+To find df/dt:
+->Multivariate Chain Rule: df/dt = (df/dx) . (dx/dt) 
+i.e. dot product of df/dx and dx/dt (refer to Multivate chain rule.png)
+
+#df/dx = Jacobian.T {.T indicates transpose of a vector/matrix)
+
+Therefore, df/dt = (J)(dx/dt) {Since J is a row vector and dx/dt is a column vector, simple multiplication would produce the same result as taking the dot product of J.T and dx.dt}
+
+Note: Refer to images Multivariate Chain Rule[2|3|4].png for extended version for the above chain rule
